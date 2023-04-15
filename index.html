@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esercizio D7-D8 | Angelo Belardo</title>
+</head>
+
+<body>
+    <main>
+        <img class="img" src="assets/Logo_JobSearch.png" alt="Logo Search">
+        <h1 class="titolo">Ricerca lavoro!</h1>
+        <!-- Qui vi sono i campi in cui l'utente può eseguire la ricerca riempiendo i campi -->
+        <div id="stringa1">
+            <label for="tname" class="testi">Titolo:</label>
+            <input type="search" placeholder="Titolo" id="tname" class="myInput button testi-i">
+            <label for="lname" class="testi">Luogo:</label>
+            <input type="search" placeholder="Luogo" id="lname" class="myInput button testi-i" >
+        </div>
+        <div>
+            <button id="btn" value="Cerca" class="button-o"> Cerca</button>
+        </div>
+        <div>
+            <ul id="output" class="testi-li"></ul>
+        </div>
+    </main>
+    <script src="EsercizioD7-D8.js"></script>
+</body>
+
+</html>
